@@ -1,0 +1,76 @@
+
+@Copyright by SONG
+
+回顾:
+Java 来世今生
+1991 - Ork
+1994 - Java 更名
+1995 - 蓬勃发展 - Internet - 云端管理系统
+
+JavaSE - JavaEE - JavaME
+
+与其它语言的两个重要的区别:
+1.跨平台 - JVM(Java虚拟机): 编写一次,到处运行
+2.垃圾回收机制:
+  C: 程序员创建对象;自己回收(释放)对象(垃圾)
+  Java: 程序员创建对象,由 JVM 定时回收对象(垃圾)
+  
+jre: 运行环境(运行字节码 .class) 
+jdk: 编译+运行环境 
+  javac Xxx.java - 编译源码 .java
+  java Xxx       - 运行字节码 .class
+  
+sts 开发 Java 应用程序:
+1.New Java Project
+2.新建类: 输入包名 + 类名  
+  package com.google.java; 
+    公司域名的反序
+    公司的域名: www.google.com - com.google.xxx(模块)
+            www.baidu.com
+            www.qq.com
+            
+
+            
+Java 的数据类型与变量:
+
+城市:    大长沙                                                   内存(内存条运行的空间)
+一个酒店: 华天                                                      一段内存(执行 Java App)
+房间类型: 单人间  双人间  三人间  总统套房   数据类型:int double char...
+房间号:   8888  9999  7878  1314    变量名: age  money  sex
+房客:     段誉    乔峰      王语嫣                     值: 10  100.99   'A'
+
+房间类型 房间号 = 房客;               数据类型 变量名 = 值;
+双人间     9999  = 段誉;               int    age  = 10;
+                                   double money = 100.99;
+                                   
+
+Java 数据类型:
+原始数据类型:
+    数值型:
+        整型:   byte short int long 
+        非整型: float double
+    非数值型: boolean char
+    
+引用数据类型:
+    数组 Array
+    对象: 
+        类  
+        接口       
+        
+        
+        
+声明变量的两种方式 
+
+Java 数据类型转换                                    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
